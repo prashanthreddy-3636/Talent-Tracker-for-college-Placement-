@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>View Students - Talent Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Student Placement List</h1>
+    <nav>
+      <a href="index.html">🏠 Home</a> |
+      <a href="add-student.html">➕ Add Student</a>
+    </nav>
+  </header>
+
+  <section class="filter-section">
+    <h3>Filter Students</h3>
+    <select id="filterStatus">
+      <option value="All">All</option>
+      <option value="Placed">Placed</option>
+      <option value="Not Placed">Not Placed</option>
+    </select>
+  </section>
+
+  <section class="table-section">
+    <table id="studentTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Department</th>
+          <th>Status</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

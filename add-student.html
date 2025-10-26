@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Student - Talent Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Add Student</h1>
+    <nav>
+      <a href="index.html">🏠 Home</a> |
+      <a href="view-students.html">📋 View Students</a>
+    </nav>
+  </header>
+
+  <section class="form-section">
+    <form id="studentForm">
+      <input type="text" id="name" placeholder="Student Name" required>
+      <input type="text" id="dept" placeholder="Department" required>
+      <select id="status" required>
+        <option value="Not Placed">Not Placed</option>
+        <option value="Placed">Placed</option>
+      </select>
+      <button type="submit">Add Student</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
